@@ -9,7 +9,10 @@ class App extends Component {
       <div className="App">
         <Header />
         <section className="main">
-          <Headline header={"Posts"} desc="Click the button to render posts!" />
+          <Headline
+            header={"Tested /success : 3000"}
+            desc="Tested /success : 3000"
+          />
         </section>
       </div>
     );
