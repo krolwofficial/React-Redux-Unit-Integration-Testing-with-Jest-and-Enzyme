@@ -44,7 +44,7 @@ describe("Headline component", () => {
 
     it("Should not render", () => {
       const wrapper = findByTestAtr(component, "HeadlineComponent");
-      expect(wrapper.length).toBe(0);
+      expect(wrapper.length).not.toBe(1);
     });
   });
 });
