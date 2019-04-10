@@ -1,22 +1,19 @@
 import React, { Component } from "react";
+import "./app.scss";
+import Header from "./components/header";
+import Headline from "./components/headline";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Header />
+        <section className="main">
+          <Headline
+            header={"Tested /success : 3000"}
+            desc="Tested /success : 3000"
+          />
+        </section>
       </div>
     );
   }
